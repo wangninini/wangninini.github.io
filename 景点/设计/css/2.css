@@ -1,0 +1,78 @@
+/* CSS Document */
+#box{
+width:74.5%;/*屏幕的百分之*/
+height:780px;
+background-color:#06F;
+margin:0px auto;
+
+
+}
+#box1{
+	width:59%;/*795,屏幕的百分之，因为box1采用的是绝对定位*/
+	height:700px;
+	/*margin-left:100px;
+	margin-top:100px;*/
+	background-color:#FFF;
+	position:absolute;
+	left:270px;
+	top:30px;
+	
+}
+#box2{
+	height:75px;
+	width:100%;/*box1的百分之*/
+	background-color:#FFF;
+}
+#box3{
+	width:90%;/*box1的百分之*/
+	height:285px;
+	background-color:#09F;
+	margin:auto;
+	
+}
+#box4{
+	height:100px;
+	width:90%;/*box1的百分之*/
+	background-color:#FFF;
+	margin:auto;
+}
+#box5{
+	height:110px;
+	width:32%;  /*260*/
+	margin:auto;
+	background-color:#9CC;
+}
+a{
+	text-decoration:none;
+	color:#000;
+	
+	
+}
+a:link{
+	
+	text-decoration:none;
+	color:#000;
+	font-family:"华文楷体";
+	font-size:18px;
+	text-align:center;
+	font-weight:bold;
+}
+
+	
+a:hover{
+	color:#930;
+	font-size:22px;
+	text-decoration:underline;
+}
+
+	
+
+.font1{
+	font-family:"微软雅黑";
+	text-indent:2em;
+	font-size:14px;
+	
+}
+	
+
+
