@@ -1,0 +1,198 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0;
+	padding:0;
+	font-size:24px;
+	font-family:"仿宋", "方正兰亭超细黑简体";
+	font-weight:normal;
+	background:url(../%E9%A6%96%E9%A1%B5/%E7%B4%A0%E6%9D%90/%E8%83%8C%E6%99%AF.jpg);
+}
+span1{
+	font-size:32px;
+	font-family:"仿宋", "方正兰亭超细黑简体";
+	font-weight:normal;
+	
+	
+}
+span2{
+	color:#09C;
+	font-weight:bold;	
+	}
+span3{
+	color:#C00;
+	font-weight:bold;	
+}
+span4{
+	position:relative;
+	margin-top:5%;
+	margin-left:5%;
+}
+span5{
+	color:#666;
+	font-size:36px;
+	text-shadow:5px 2px 4px #999;
+	font-weight:bold;
+	margin-left:3%;
+}
+span6{
+	text-decoration:underline;
+}
+ .top{
+ width:80%;
+ height:100px;
+ background:url(../%E9%A6%96%E9%A1%B5/%E7%B4%A0%E6%9D%90/u=1836273591,4258104193&fm=23&gp=0.jpg);
+ display:flex;
+ justify-content:space-around; 
+ align-items:center;
+ position:relative;
+ margin-left:10%;
+}
+.item1{
+	width:190px;
+	height:60px;
+	
+	transition:all 1s;
+}
+.item:hover{
+	box-shadow:0 0 5px 5px #000;
+}
+@keyframes xuanzhuang{
+	0%{
+	  transform:rotate(0deg);	
+	}
+	100%{
+	  transform:rotate(360deg);	
+	}
+}
+.top-menu{width:580px;} 
+.top-menu ul{list-style:none; padding:0px; margin:0px;} 
+.top-menu li{display:inline;}
+.top-menu li a{
+	float:inherit;
+	margin-left:50px;
+	font-size:55px;
+	font-weight:bolder;
+	text-decoration:none;
+	color:#000;
+	width:77px;
+	height:30px;
+	padding:14px 0px 0px 5px;
+	font-family:"方正兰亭超细黑简体";>
+}
+.top-menu li a:hover{
+	
+	font-size:70px;
+}
+#box{
+	width:60%;
+	height:1300px;
+	background-color:#FFF;
+	margin-left:300px;
+}
+#box1
+{
+	width:25%;
+	height:1270px;
+	background-color:#CCF;
+	float:left;
+	margin-top:10px;
+	box-shadow:5px 3px 6px #CCF;
+}
+#box2-1
+{
+	width:65%;
+	height:100px;
+	background-color:#CCF;
+	margin-left:30%;
+	position:relative;
+	box-shadow:5px 3px 6px #CCF;
+	margin-top:30px;
+	
+
+}
+#box2-2
+{
+	width:65%;
+	height:280px;
+	background-color:#CCF;
+	position:relative;
+	margin-top:5%;
+	margin-left:30%;
+	box-shadow:5px 3px 6px #CCF;
+}
+#box2-3
+{
+ width:65%;
+	height:300px;
+	background-color:#CCF;
+	position:relative;
+	margin-top:5%;
+	margin-left:30%;
+	box-shadow:5px 3px 6px #CCF;
+}
+#box2-4
+{
+ width:65%;
+	height:400px;
+	background-color:#CCF;
+	position:relative;
+	margin-top:5%;
+	margin-left:30%;
+	box-shadow:5px 3px 6px #CCF;
+}
+#box2-5
+{
+ width:65%;
+	height:300px;
+	background-color:#CCF;
+	position:relative;
+	margin-top:5%;
+	margin-left:30%;
+	box-shadow:5px 3px 6px #CCF;
+}
+#box2-6{
+	width:10%;
+	height:15px;
+	position:relative;
+	margin-left:90%;
+	margin-top:30px;
+}
+
+
+#nav{
+/*margin-top:85px;*/
+width:76.6%;  /*设置菜单的宽度*/
+
+font-family:Arial;
+margin:10px 27px;
+
+
+}
+#nav ul{
+list-style-type:none; /*不显示项目符号*/
+margin:0px;   /*外边距为0*/
+padding:0px;
+text-align: left;
+}
+#nav li{
+border-bottom:1px solid #666; /*设置菜单项的下边框*/
+}
+#nav li a{
+display:block;  /*区块显示*/
+padding:5px 5px 5px 0.5em;
+text-decoration:none;   /*超链接无修饰*/
+border-left:12px solid #808080;  /*左边的粗红边框*/
+border-right:1px solid #808080;  /*右侧阴影*/
+border-top:1px solid #808080;
+}
+#nav li a:link,#nav li a:visited{/*未访问过的超链接、访问过的超链接的样式*/
+  /*改变背景颜色*/
+color:#000;  /*改变字体颜色*/
+text-align:center;
+}
+#nav li a:hover{  /*鼠标悬停于菜单项上时的样式*/
+background-color:#06F;/*改变背景颜色*/
+color:#ff0;   /*改变文字颜色*/
+font-family:Arial;
+}
