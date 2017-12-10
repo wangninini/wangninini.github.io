@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>总页面</title>
+  <link rel="stylesheet" href="swiper.min.css" >
+
+
+
+ <style>
+    html, body {
+        position: relative;
+        height: 100%;
+    }
+    body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+	
+		
+    }
+    .swiper-container {
+        width:80%;
+        height: 90%;
+        
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    .swiper-slide1 {        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+}
+
+
+ </style>
+</head>
+<body>
+    <!-- Swiper -->
+      <div class="top">
+	 	 	<div class="item1"><div class="top-menu"><ul><li><a href="index.html">首页</a></li></ul></div></div>
+	 	 	<div class="item1"><div class="top-menu"><ul><li><a href="../概述/历史.html">概述</a></li></ul></div></div>
+	 	 	<div class="item1"><div class="top-menu"><ul><li><a href="../景点/设计/五台山index.html">景点</a></li></ul></div></div>
+	 	 	<div class="item1"><div class="top-menu"><ul><li><a href="../攻略/攻略.html">攻略</a></li></ul></div></div>
+	 </div>
+  
+
+        
+    <div class="swiper-container">
+     <div class="swiper-wrapper">
+     
+            <div class="swiper-slide"><img src="素材/13587582079997166.jpg" width="1000px" height="600px"/></div>
+            <div class="swiper-slide"><img src="素材/13587586972119192.jpg"  width="1000px" height="600px" /></div>
+            <div class="swiper-slide"><img src="素材/13564240605183055.jpg"  width="1000px" height="600px" /></div>
+            <div class="swiper-slide"><img src="素材/13564242290958542.jpg" /></div>
+            <div class="swiper-slide"><img src="素材/13587581981172520.jpg" width="1000px" height="600px" /></div>
+            <div class="swiper-slide"><img src="素材/13587587100794875.jpg" width="1000px" height="600px"/></div>
+            <div class="swiper-slide"><img src="素材/13587592128104077.jpg" /></div>
+            <div class="swiper-slide"><img  src="素材/tu.jpg" /></div>
+            <div class="swiper-slide"><img src="素材/13564241323974592.jpg" width="1000px" height="600px"/></div>
+            <div class="swiper-slide"><img src="素材/13587595190751527.jpg" width="1000px" height="600px"/></div>
+              </div>
+        </div>
+        
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+    
+
+    <!-- Swiper JS -->
+<script src="swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        paginationClickable: true,
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: 2500,
+        autoplayDisableOnInteraction: false
+    });
+    </script>
+
+
+</body>
+</html>
